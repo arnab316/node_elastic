@@ -1,0 +1,19 @@
+{
+  "name": "node_elastic",
+  "version": "1.0.0",
+  "description": "this is a search engine with elastic search",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "Arnab Golder",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.15.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
