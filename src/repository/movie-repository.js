@@ -7,7 +7,8 @@ class MovieRepository {
         index: "movies",
         body: movie,
       });
-      return response.body.result;
+      return response.body;
+      
    } catch (error) {
     throw new Error(`error creating movie ${error.message}`);
    }
